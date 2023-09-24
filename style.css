@@ -1,4 +1,26 @@
 .nav { /* Navigation bar styling */
   background-color: grey;
   overflow: hidden;
+  height: 50px;
+}
+
+.nav a:hover {
+  background-color: lightcoral;
+}
+
+.column {
+  float: left;
+  margin: auto;
+  width: 25%;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.column a:hover {
+  background-color: darkblue;
+}
+
+a {
+  color: white;
 }
