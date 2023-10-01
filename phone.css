@@ -1,0 +1,70 @@
+/* CSS Stylesheet for Phone sized devices*/
+
+/* Header, footer, and text */
+
+@media only screen and (max-width:480px) {
+    body {
+      background-color: rgb(230, 173, 173);
+    }
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+  p {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  a {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .nav ul {
+    margin-top: -1%;
+    margin-left: -1%;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    background-color: #333;
+    width: 100%;
+    color: white;
+    padding: 1%;
+  }
+
+  /* page content */
+  img {
+  max-width: 100%;
+  height: auto;
+    }
+
+    .contact {
+        display: flex; 
+        align-items: center; 
+        justify-content: center;  
+      }

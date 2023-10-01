@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Test</title>
+        <title>Contact Me</title>
         <link href="style.css" rel="stylesheet" type="text/css" media="only screen and
         (min-width:960px)">
         <!-- tablet style sheet-->
@@ -24,23 +24,24 @@
         </div>
       </header>
 
-  <div class = "grid-container">
-    <div class = "column1">
-      <img style = "border-radius: 50%;" src="Headshot_KeenanL.png" alt = "Picture of Keenan L.">
-    </div>
-    <div class = "column2">
-      <h1 style="font-family: Arial, Helvetica, sans-serif;">CONTACT</h1>
-      <form action="mailto:keenan.linck@ontariotechu.net" ?subject=Signup Form method="post"
-      enctype="text/plain" name="form">
-        <label for="name">Your Name</label>
-        <input type="text" id="name" name="name">
-        <label for="email">Your Email</label>
-        <input type="text" id="email" name="email">
-        <input type="submit" value="Submit">
-        <p><input type="reset" value="Click here to reset the form"/></p>
-      </form>
-       </div>
-  </div>
+      <h1 style="font-family: Arial, Helvetica, sans-serif; text-align: center;">Contact me!</h1>
+      <p style="text-align: center;">Use the form below to get in touch with me.</p>
+      <div class="contact">
+        <form action="mailto:keenan.linck@ontariotechu.net" ?subject=Signup Form method="post"
+        enctype="text/plain" name="form">
+          <p><label for="name">Your Name</label></p>
+          <input type="text" id="name" name="name" required>
+          <p><label for="email">Your Email</label></p>
+          <input type="email" id="email" name="email" required>
+          <p><label for="comment">Comment</label></p>
+  
+          <input type="text" id="comment" name="comment" required><br>
+  
+          <input type="submit" value="Submit"><br>
+          <p><input type="reset" value="Click here to reset the form"/></p>
+        </form>
+      </div>
+  
   
 <footer>
   <p>Copyright 2023 Keenan Linck</p>
