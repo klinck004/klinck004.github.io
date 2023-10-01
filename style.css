@@ -1,16 +1,29 @@
-ul {
+/* Header, footer, and text */
+* {
+  box-sizing: border-box;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav ul {
+  margin-top: -1%;
+  margin-left: -1%;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 1%;
   overflow: hidden;
   background-color: #333;
 }
 
-li {
+.nav li {
   float: left;
 }
 
-li a {
+.nav li a {
   display: block;
   color: white;
   text-align: center;
@@ -18,23 +31,44 @@ li a {
   text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
 
-mark {
-  background-color:aqua;
-}
-
-.column {
-  float: left;
-  width: 50%;
-}
-
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #333;
+  width: 100%;
+  color: white;
+  padding: 1%;
+}
+
+/* Page content */
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+    place-items: center;
+}
+.column1 {
+  grid-column-start: 1;
+  grid-column-end: 1;
+
+}
+.column2 {
+  grid-column-start: 2;
+  grid-column-end: 2;
 }

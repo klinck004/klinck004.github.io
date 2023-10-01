@@ -1,11 +1,44 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>About Me</title>
-        <link href="style.css" rel="stylesheet">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for responsive design on all devices-->
+        <title>Test</title>
+        <link href="style.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+        (max-width:480px)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 <body>
-    <p>Test for about me</p>
+    <header>
+        <div class = "nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutme.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>  
+        </div>
+      </header>
+
+  <div class = "grid-container">
+    <div class = "column1">
+      <img style = "border-radius: 50%;" src="Headshot_KeenanL.png" alt = "Picture of Keenan L.">
+    </div>
+    <div class = "column2">
+      <h1 style="font-family: Arial, Helvetica, sans-serif;">ABOUT ME</h1>
+       </div>
+  </div>
+  
+<footer>
+  <p>Copyright 2023 Keenan Linck</p>
+  <address>
+    <a href="mailto:keenan.linck@ontariotechu.net">keenan.linck@ontariotechu.net</a>
+  </address>
+</footer>
+    
 </body>
 </html>

@@ -2,25 +2,56 @@
 <html>
     <head>
         <title>Test</title>
-        <link href="style.css" rel="stylesheet">
+        <link href="style.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:960px)">
+        <!-- tablet style sheet-->
+        <link href="tablet.css" rel="stylesheet" type="text/css" media="only screen and
+        (min-width:481px) and (max-width:960px)">
+        <!-- phone style sheet-->
+        <link href="phone.css" rel="stylesheet" type="text/css" media="only screen and
+        (max-width:480px)">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
     </head>
 <body>
+<header>
+  <div class = "nav">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="aboutme.html">About</a></li>
+      <li><a href="projects.html">Projects</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>  
+  </div>
+</header>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="aboutme.html">About</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>  
-  <div class="row">
-    <div class="column">
-      <img style = "width: auto; height: auto; max-width: 20%; max-height: 20%; border-radius: 20%; object-fit: contain;"  src="Headshot_KeenanL.png" alt="Picture of Keenan Linck">
+  <div class = "grid-container">
+    <div class = "column1">
+      <img style = "border-radius: 50%;" src="Headshot_KeenanL.png" alt = "Picture of Keenan L.">
     </div>
-    <div class="column">
-      <p>Hello my name is <mark>Keenan Linck</mark></p>
+    <div class = "column2">
+      <h1 style="font-family: Arial, Helvetica, sans-serif;">Hi, my name is Keenan Linck.</h1>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+        Pellentesque vitae metus ac arcu scelerisque vestibulum. Mauris ut pulvinar libero. .
+        Curabitur ut tincidunt ex. Proin augue justo, facilisis eget lacus vitae, faucibus malesuada lacus. 
+        Donec faucibus fringilla rutrum. Duis sagittis, est quis facilisis feugiat, odio sem eleifend ante, eget viverra velit erat non arcu. 
+        Morbi porta justo justo, ac venenatis eros euismod vel. Maecenas tempus rhoncus magna in placerat. 
+        Nulla ac nunc scelerisque, luctus ante sit amet, porttitor massa.
+        Curabitur ultrices sem diam, ac lobortis metus vulputate at. 
+        Aliquam aliquam pellentesque odio eu tincidunt. Suspendisse eleifend gravida augue in euismod. 
+        Morbi pretium sapien lorem, sed vulputate risus elementum in. Aliquam erat volutpat. Curabitur tempus scelerisque velit, at ultrices est ornare quis.
+        Vivamus eget nunc ut ex consectetur iaculis sed at urna. Vestibulum venenatis elit augue, sit amet dignissim arcu egestas vitae. Mauris convallis, tellus vel congue dapibus, sapien diam ullamcorper sapien, 
+        vel suscipit est dolor nec ligula. Sed lacinia massa porttitor urna vehicula pulvinar. Sed feugiat ex ligula, tincidunt convallis metus feugiat et. Nullam suscipit, justo ac sagittis volutpat, 
+        enim lorem scelerisque risus, ultricies fermentum dolor lectus non nunc. Vestibulum ullamcorper aliquam urna at porta. Donec tempor, risus non pharetra porttitor, dolor sapien porta nibh,
+        ac convallis lectus justo eu enim. Pellentesque venenatis augue neque, vel hendrerit mauris semper at.</p>
     </div>
   </div>
-    
+  
+<footer>
+  <p>Copyright 2023 Keenan Linck</p>
+  <address>
+    <a href="mailto:keenan.linck@ontariotechu.net">keenan.linck@ontariotechu.net</a>
+  </address>
+</footer>
     
 </body>
 </html>
